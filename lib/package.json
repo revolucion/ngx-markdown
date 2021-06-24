@@ -38,12 +38,5 @@
     "@angular/platform-browser": "^12.0.0",
     "rxjs": "^6.6.0",
     "zone.js": "^0.10.2 || ^0.11.4"
-  },
-  "main": "bundles/ngx-markdown.umd.js",
-  "module": "fesm2015/ngx-markdown.js",
-  "es2015": "fesm2015/ngx-markdown.js",
-  "esm2015": "esm2015/ngx-markdown.js",
-  "fesm2015": "fesm2015/ngx-markdown.js",
-  "typings": "ngx-markdown.d.ts",
-  "sideEffects": false
+  }
 }
