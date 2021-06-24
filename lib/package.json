@@ -28,7 +28,7 @@
     "@types/marked": "^2.0.0",
     "emoji-toolkit": "^6.5.0",
     "katex": "^0.13.0",
-    "marked": "https://github.com/revolucion/marked",
+    "marked": "https://github.com/revolucion/marked.git",
     "prismjs": "^1.23.0",
     "tslib": "^2.1.0"
   },
