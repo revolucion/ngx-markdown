@@ -5861,10 +5861,9 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^2.0.0:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.3.tgz#3551c4958c4da36897bda2a16812ef1399c8d6b0"
-  integrity sha512-5otztIIcJfPc2qGTN8cVtOJEjNJZ0jwa46INMagrYfk0EvqtRuEHLsEe0LrFS0/q+ZRKT0+kXK7P2T1AN5lWRA==
+"marked@https://github.com/revolucion/marked.git":
+  version "2.1.2"
+  resolved "https://github.com/revolucion/marked.git#22c949c167a4a516ed405e72525427ba6ba26028"
 
 math-random@^1.0.1:
   version "1.0.4"
@@ -6247,13 +6246,13 @@ ng-packagr@^12.0.0:
     sass "^1.32.8"
     stylus "^0.54.8"
 
-"ngx-markdown@file:./lib":
+"ngx-markdown@file:./dist/lib":
   version "12.0.1"
   dependencies:
     "@types/marked" "^2.0.0"
     emoji-toolkit "^6.5.0"
     katex "^0.13.0"
-    marked "^2.0.0"
+    marked "https://github.com/revolucion/marked.git"
     prismjs "^1.23.0"
     tslib "^2.1.0"
 
